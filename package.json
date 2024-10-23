@@ -1,0 +1,19 @@
+{
+  "name": "electron_practice",
+  "version": "1.0.0",
+  "description": "An electron-based educational project that has a \"Users\" table and the ability to add a new user to this table",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeiKiss/electron_practice.git"
+  },
+  "author": "SergeiKiss",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^33.0.2"
+  }
+}
